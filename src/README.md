@@ -1,0 +1,8 @@
+¿Qué sucedio al usar async y await?
+logré pausar la ejecución de mi función hasta que las promesas se resolvieran o fueran rechazadas. Esto hizo que mi flujo de ejecución fuera más claro y se asemejara al estilo de programación síncrona, lo que facilita la comprensión de mi código.
+¿Qué sucedio al usar el método then()?
+Usé el método then() para encadenar acciones después de que las promesas se resolvieran exitosamente. Fue útil para mostrar mensajes de éxito en la consola después de cada tarea (crear, eliminar, completar). Si alguna de las promesas se rechazaba, el control se desplazaba al bloque catch() para manejar el error.
+¿Qué diferencias encontraste entre async, await y el método then()?
+async/await fue más fácil de usar y entender para trabajar con promesas. Me permitió escribir código asíncrono de manera similar a como escribiría código síncrono, lo que hizo que mi código fuera más claro y legible.
+En comparación, el método then() implicaba encadenar llamadas de función de retorno de llamada, lo que podía volverse anidado y complicado de entender en código complejo. async ofreció una sintaxis más plana y fácil de seguir, especialmente para operaciones asíncronas complejas.
+Además, async facilitó la captura de errores utilizando un bloque try...catch, que me resultó más similar a cómo manejaría errores en código síncrono, en comparación con el método then() donde tendría que usar un método catch() al final de la cadena de promesas.
